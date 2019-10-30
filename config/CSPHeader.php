@@ -4,7 +4,7 @@ return [
     'guest'=>[
         'default-src' => ["'self'"],
         'script-src' => ["'self'", 'https:', '*.jquery.com', '*.cloudflare.com', 'stackpath.bootstrapcdn.com'],
-        'style-src' => ["'self'", 'stackpath.bootstrapcdn.com'],
+        'style-src' => ["'self'", 'unsafe-inline', 'stackpath.bootstrapcdn.com'],
         'img-src' => ["'self'", 'pawsonweb.com'],
         'connect-src' => ["'self'"],
         'font-src' => ["'self'"],
